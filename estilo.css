@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    margin: 0;
+	background-color: #E4D9B7;
+}
+
+.mi-imagen{
+ 	width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 44px;
+    text-align: center;
+
+}
+
+H1 {
+	text-align: center;
+	background-color: #434B32;
+	font-weight: auto;
+	font-size: 60px;
+	color: white;
+}
+
+
+.texto-bajo{
+	text-align: center;
+	font-size: 30px; 
+    margin-top: 3px; 
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.child{
+	flex-grow: 1;
+	width: 50px;
+	height: 50px;
+}
+
+footer {
+    color: black;
+    text-align: center; 
+    padding: 5px; /* Espaciado alrededor del texto */
+    bottom: 0; /* Fijar al fondo de la página */
+    width: 99%; /* Ocupa todo el ancho */
+}

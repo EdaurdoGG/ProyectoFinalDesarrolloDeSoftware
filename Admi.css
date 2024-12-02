@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+H1 {
+	text-align: center;
+	background-color: #434B32;
+	font-weight: auto;
+	font-size: 60px;
+	color: white;
+}
+
+.boton-atras{
+	position: relative;
+	left: 220px;
+	margin-top: 8px;
+	width: 50px;
+	height: 50px;
+}
+
+.titulo{
+	background-color: #434B32;
+	display: flex;
+	justify-content: center;
+}
+
+body{
+ 
+background: #E4D9B7;
+}
+
+.mi-foto{
+	 width: 70%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.derecha,.centro, .izquierda{
+	width: 33.3%;
+   height: auto;
+   text-align: center;
+}
+
+main{
+   display: flex;
+}
+
+footer {
+    color: black;
+    text-align: center; 
+    padding: 5px; /* Espaciado alrededor del texto */
+    bottom: 0; /* Fijar al fondo de la página */
+    width: 99%; /* Ocupa todo el ancho */
+}
+
+.texto-bajo{
+	text-align: center;
+	font-size: 30px; 
+    margin-top: 3px; 
+}

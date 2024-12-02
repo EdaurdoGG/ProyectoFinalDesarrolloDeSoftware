@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #E4D9B7;
+}
+
+H1 {
+	text-align: center;
+	background-color: #434B32;
+	color: white;
+	padding: 20px;
+	font-size: 60px;
+}
+
+.boton-atras{
+	position: relative;
+	left: 220px;
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+.titulo{
+	background-color: #434B32;
+	display: flex;
+	justify-content: center;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.child{
+	flex-grow: 1;
+	width: 100px;
+	height: 100px;
+}
+
+.mi-foto{
+	 width: 90%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.uno, .dos, .tres, .cuatro{
+	width: 25%;
+   height: 88vh;
+   text-align: center;
+}
+
+main{
+   display: flex;
+}
+
+footer {
+    color: black;
+    text-align: center; 
+    padding: 0px; /* Espaciado alrededor del texto */
+    width: 98%; /* Ocupa todo el ancho */
+	height: 0%;
+}
+
+.texto-bajo{
+	text-align: center;
+	font-size: 30px; 
+    margin-top: 3px; 
+}
